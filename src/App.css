@@ -1,38 +1,87 @@
-.App {
-  text-align: center;
+.navbar {
+  margin-bottom: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav-link {
+  color: #444;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 1rem;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav-link:hover,
+.nav-link:focus {
+  color: #007bff;
+  text-decoration: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
+  margin-top: 20px;
+}
+
+.app-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-right: 1rem;
+}
+
+.app-nav {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-top: 1rem;
 }
 
-.App-link {
-  color: #61dafb;
+.app-nav-link {
+  margin: 0 0.5rem;
+  font-size: 1.2rem;
+  color: black;
+  text-decoration: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.app-nav-link.active {
+  font-weight: bold;
+}
+
+.noChartsMessage {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.generateChartsBtn {
+  margin-bottom: 20px;
+  border: 2px solid teal;
+  border-radius: 5px;
+}
+
+.filterDate {
+  display: flex;
+}
+
+.filterInput {
+  margin-right: 20px;
+}
+
+.filterBtn {
+  border: 2px solid teal;
+  border-radius: 5px;
+}
+
+.filterInput {
+  border: 2px solid teal;
+  border-radius: 5px;
+}
+
+.removeBtn {
+  border: 2px solid teal;
+  border-radius: 5px;
+}
+
+.noChartsSettings {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: bold;
 }
